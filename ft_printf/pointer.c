@@ -5,7 +5,7 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: wben-far <wben-far@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/02/09 15:35:40 by wben-far          #+#    #+#             */
+/*   Created: 2021/01/08 12:35:40 by wben-far          #+#    #+#             */
 /*   Updated: 2021/02/09 15:35:43 by wben-far         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
@@ -95,14 +95,14 @@ void	output_pointer(t_print *arg, int base)
 	num = va_arg(arg->output, unsigned long);
 	len = ft_num_len(num, base);
 	if (arg->precision < 0)
-		ft_pointer_no_accuracy(arg, base, len, num);
+		ft_pointer_no_precision(arg, base, len, num);
 	else
 	{
 		if (!num && arg->precision == 0)
 			ft_output_pointer(arg, num);
 		else if (!num && arg->precision != 0)
-			ft_null_pointer(arg);
+			null_pointer(arg);
 		else
-			ft_pointer_with_accuracy(arg, base, len, num);
+			ft_pointer_with_precision(arg, base, len, num);
 	}
 }
