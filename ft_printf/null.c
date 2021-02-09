@@ -12,29 +12,29 @@
 
 #include "ft_printf.h"
 
-void	null_minus(t_print *var)
+void	null_minus(t_print *arg)
 {
-	ft_put_fd('0', 1, 1, var);
-	ft_put_fd('x', 1, 1, var);
-	ft_put_fd('0', 1, var->precision, var);
-	ft_put_fd(' ', 1, var->width - var->precision - 2, var);
+	ft_put_fd('0', 1, 1, arg);
+	ft_put_fd('x', 1, 1, arg);
+	ft_put_fd('0', 1, arg->precision, arg);
+	ft_put_fd(' ', 1, arg->width - arg->precision - 2, arg);
 }
 
-void	null_no_minus(t_print *var)
+void	null_no_minus(t_print *arg)
 {
-	ft_put_fd(' ', 1, var->width - var->precision - 2, var);
-	ft_put_fd('0', 1, 1, var);
-	ft_put_fd('x', 1, 1, var);
-	ft_put_fd('0', 1, var->precision, var);
+	ft_put_fd(' ', 1, arg->width - arg->precision - 2, arg);
+	ft_put_fd('0', 1, 1, arg);
+	ft_put_fd('x', 1, 1, arg);
+	ft_put_fd('0', 1, arg->precision, arg);
 }
 
-void	null_pointer(t_print *var)
+void	null_pointer(t_print *arg)
 {
-	if (!var->width)
-		var->width = 2;
-	if (var->precision < 0)
-		var->precision= 1;
-	if (var->width < var->precision + 2)
-		var->width = var->precision + 2;
-	((var->minus == 1) ? null_minus(var) : null_no_minus(var));
+	if (!arg->width)
+		arg->width = 2;
+	if (arg->precision < 0)
+		arg->precision = 1;
+	if (arg->width < arg->precision + 2)
+		arg->width = arg->precision + 2;
+	((arg->minus == 1) ? null_minus(arg) : null_no_minus(arg));
 }
