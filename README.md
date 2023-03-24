@@ -4,7 +4,6 @@
 [![](images.png)]
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-<img src="images.png" alt= “” width="80" height="80">
 
 ## Introduction
 
