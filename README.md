@@ -1,7 +1,7 @@
 # ft_printf
 ## Because ft_putnbr() and ft_putstr() aren’t enough
 
-![](image.png)
+![](notes.png)
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
