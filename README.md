@@ -52,7 +52,7 @@ useful during your defence. Indeed, during defence, you are free to use your tes
 and/or the tests of the peer you are evaluating.
 - Submit your work to your assigned git repository. Only the work in the git repository will be graded. If Deepthought is assigned to grade your work, it will be done
 
-# Mandatory part
+## Mandatory part
 
 |Program name|libftprintf.a|
 | ------ | ------ |
@@ -85,7 +85,7 @@ Using the libtool command is forbidden.
 - %X Prints a number in hexadecimal (base 16) uppercase format.
 - %% Prints a percent sign.
 
-# Bonus part
+## Bonus part
 ###### You don’t have to do all the bonuses.
 ##### Bonus list:
 - Manage any combination of the following flags: ’-0.’ and the field minimum width
