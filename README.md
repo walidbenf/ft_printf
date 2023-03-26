@@ -4,7 +4,7 @@
 
 ![Build Status](https://img.shields.io/badge/build-passing-success?style=flat&logo=appveyor)
 
-![](https://img.shields.io/badge/note-100%2F100-success?style=flat&logo=appveyo)
+![](https://img.shields.io/badge/note-100%2F100-success?style=flat&logo=appveyor)
 
 ## Summary:
 The goal of this project is pretty straightforward. You will recode printf().
