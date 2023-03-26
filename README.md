@@ -2,7 +2,8 @@
 ## Because ft_putnbr() and ft_putstr() aren’t enough
 
 ![](notes.png)
-\
+
+
 ![Build Status](https://app.travis-ci.com/travis-ci/travis-web.svg?branch=master)
 
 ## Introduction
