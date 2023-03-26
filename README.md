@@ -96,5 +96,6 @@ cd ft_printf
 Make
 ./a.out
 ```
-
+##Important 
+This project was made on Mac OS you may encounter problems on other OS.
 
