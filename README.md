@@ -4,7 +4,7 @@
 
 ![Build Status](https://app.travis-ci.com/travis-ci/travis-web.svg?branch=master)
 
-![](notes.png)
+![](https://img.shields.io/badge/note-100%2F100-success)
 
 ## Summary:
 The goal of this project is pretty straightforward. You will recode printf().
