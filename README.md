@@ -3,7 +3,7 @@
 
 ![](notes.png)
 
-![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)
+![Build Status](https://app.travis-ci.com/travis-ci/travis-web.svg?branch=master)
 
 ## Introduction
 
