@@ -102,5 +102,6 @@ Make
 ./a.out
 ```
 ## Important 
-This project was made on Mac OS you may encounter problems on other OS.
+This project was made on Mac OS you may encounter problems on other OS.\
+This is the new subject, I did it a few years ago, it may not be exactly the same.
 
