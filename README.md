@@ -2,7 +2,7 @@
 ### Because ft_putnbr() and ft_putstr() aren’t enough
 
 
-![Build Status](https://app.travis-ci.com/travis-ci/travis-web.svg?branch=master)
+![Build Status](https://img.shields.io/badge/build-passing-success?style=flat&logo=appveyor)
 
 ![](https://img.shields.io/badge/note-100%2F100-success)
 
